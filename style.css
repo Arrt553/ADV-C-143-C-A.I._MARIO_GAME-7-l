@@ -1,0 +1,51 @@
+body{
+    font-family: 'Stick No Bills', sans-serif;
+}
+.heading{
+    width: 100%;
+    text-align: left;
+    cursor: not-allowed;
+    font-family: 'Koh Santepheap', cursive;
+    
+}
+.heading h3{
+    display: inline;
+}
+.heading button{
+    float: right;
+    border: 3px double honeydew;
+}
+.big_image{
+    width: 100%;
+    cursor: none;
+}
+#start{
+    font-size: 25px;
+}
+#status{
+    font-size: 25px;
+}
+.instruction_image{
+    display: inline-block;
+    width: 45%;
+}
+.modal-dialog{
+    width: 95%;
+}
+#footer{
+    background-color: beige;
+    color: black;
+    font-size: 25px;
+    position: fixed;
+    bottom: 0;
+    border-radius: 15px;
+    width: 100%;
+}
+
+video{
+    background:url("game_console.png");
+    
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
